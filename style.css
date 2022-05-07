@@ -1,0 +1,59 @@
+/*Top Section Styles*/
+
+body{
+    margin: 0
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.blue-background{
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+header > img{
+    height: 50px;
+    width: 70px;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side > button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    border-radius: 8px;
+}
